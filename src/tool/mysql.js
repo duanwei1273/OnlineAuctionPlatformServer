@@ -5,7 +5,7 @@ let pool = mysql.createPool({
   host: 'localhost',
   user: 'root',
   password: '1273235519',
-  database: 'test'
+  database: 'OnlineAuctionPlatformDatabase'
 })
 
 function exceSQL (sqlTemp, values = [], success, fail) {
