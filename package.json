@@ -1,0 +1,12 @@
+{
+  "name": "OnlineAuctionPlatformServer",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/duanwei1273/OnlineAuctionPlatformServer.git",
+  "author": "duanwei <1273235519@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
