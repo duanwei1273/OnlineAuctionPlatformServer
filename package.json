@@ -5,6 +5,9 @@
   "repository": "https://github.com/duanwei1273/OnlineAuctionPlatformServer.git",
   "author": "duanwei <1273235519@qq.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
   "dependencies": {
     "express": "^4.18.2",
     "mysql": "^2.18.1"
