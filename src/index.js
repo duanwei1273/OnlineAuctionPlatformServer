@@ -6,12 +6,16 @@ const { toolM } = require("./middleware/middleware")
 const homeRouter = require("./routers/homeRouter")
 const userRouter = require("./routers/userRounter")
 const auctionRouter = require("./routers/auctionRouter")
+const imageRouter = require('./routers/imageRouter')
+const recordRouter = require('./routers/recordRouter')
+
 
 
 let app = express()
 
 //挂载工具的中间件
 app.use(toolM)
+
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -25,6 +29,10 @@ app.use("/home", homeRouter)
 app.use("/user", userRouter)
 
 app.use("/auction", auctionRouter)
+
+app.use('/image', imageRouter);
+
+app.use('/record', recordRouter);
 
 
 
